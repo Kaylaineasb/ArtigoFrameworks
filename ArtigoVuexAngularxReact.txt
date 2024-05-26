@@ -1,0 +1,130 @@
+#checklist:
+[ x ] Definir o assunto
+[ x ] Título chamativo: headline
+[ x ] Imagem de capa chamativa
+[ x ] Blocos do artigo
+[ x ] Postar o artigo com um call to action
+Prompts utilizados:
+*Me forneça ideias de assuntos para um artigo sobre front-end
+*Crie 10 headline para nomes de artigos sobre assunto Frameworks JavaScript: React vs. Vue vs. Angular
+*Comporte-se como um escritor de artigos tech front-end e escreva o Artigo atendendo às regras abaixo:
+{Regras}
+>No máximo 5 linhas por blocos de explicação
+>Me explique de maneira informal, como se eu fosse um criança de 10 anos
+>Os blocos que serão criados estão abaixo:
+-O que são frameworks
+-Os principais frameworks javascript
+-React
+-Exemplo de componente em react
+-Vantagens e Desvantagens do React
+-Vue
+-Exemplo Vue
+-Vantagens e Desvantagens do Vue
+-Angular
+-Exemplo Angular
+-Vantagens e Desvantagens do Angular
+-Compare o React com o Vue e o Angular e faça a conclusão
+-Faça um call to action para minhas redes sociais
+-Coloque 3 hashtags que façam sentido
+*function HelloWorld() {
+  return <h1>Hello, World!</h1>;
+} Explique esse código em até 5 linhas de um jeito 
+fácil de entender
+
+Assunto: Frameworks JavaScript: React vs. Vue vs. Angular
+Título:React, Vue e Angular: Qual o Melhor Framework JavaScript para Iniciantes?
+Blocos do artigo:
+Comporte-se como um escritor de artigos tech front-end e escreva o Artigo atendendo às regras abaixo:
+{Regras}
+>No máximo 5 linhas por blocos de explicação
+>Me explique de maneira informal, como se eu fosse um criança de 10 anos
+>Os blocos que serão criados estão abaixo:
+O que são diretivas no Angular
+O que são diretivas estruturais
+-Cite exemplos com código de diretivas estruturais
+O que são diretivas de atributos
+-Cite exemplos com código de diretivas atributos
+      -	Faça um call to action para minhas redes sociais
+      -	Coloque 3 hashtags que façam sentido
+
+Artigo
+#Frameworks
+##O que são frameworks
+Imagine que você está construindo um castelo de Lego.
+Um framework é como um conjunto de peças pré-montadas que te ajuda
+a montar esse castelo de forma mais rápida e organizada. Na programação, 
+um framework é um conjunto de ferramentas e códigos prontos que facilitam 
+a criação de aplicativos e sites.
+
+##Os principais frameworks JavaScript
+No mundo dos desenvolvedores, temos três frameworks JavaScript muito populares: React, Vue e Angular. Cada um deles é como um kit de construção com suas próprias peças e instruções, ajudando os programadores a criar coisas incríveis na web.
+
+#React
+React é como um Lego que permite construir interfaces de usuário de maneira bem divertida e modular. Ele foi criado pelo Facebook e é muito bom para fazer sites e aplicativos que mudam rápido, como quando você vê novos posts no Instagram sem precisar atualizar a página.
+
+##Vantagens e Desvantagens do React
+Vantagens:
+Fácil de aprender e usar.
+Muito rápido e eficiente.
+Grande comunidade de desenvolvedores para ajudar.
+Desvantagens:
+Pode ser um pouco complicado no início.
+Precisa de ferramentas extras para algumas coisas.
+
+###Exemplo de componente em React
+function HelloWorld() {
+  return <h1>Hello, World!</h1>;
+}
+Este código define uma função chamada HelloWorld que retorna um elemento HTML <h1> com o texto "Hello, World!". Quando chamamos essa função, ela nos dá de volta esse título. É como se criássemos um carimbo que sempre imprime "Hello, World!" quando usado.
+#Vue
+Vue é outro kit de Lego, mas ele é mais simples e fácil de usar. Ele é ótimo para iniciantes e permite criar interfaces de usuário bonitas e funcionais. Foi criado por um desenvolvedor chamado Evan You e é muito flexível para diferentes tipos de projetos.
+##Vantagens e Desvantagens do Vue
+Vantagens:
+Muito fácil de aprender.
+Flexível e versátil.
+Boa documentação.
+Desvantagens:
+Menor comunidade comparado ao React.
+Pode ser menos eficiente em projetos muito grandes.
+###Exemplo Vue
+<template>
+  <h1>{{ message }}</h1>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      message: 'Hello, World!'
+    };
+  }
+};
+</script>
+Este código Vue faz um componente que mostra "Hello, World!" na tela. A parte <template> é como o que aparece para o usuário, mostrando a mensagem dentro de um título. A parte <script> define que a mensagem será 'Hello, World!'. Então, quando o componente é usado, ele exibe essa frase.
+#Angular
+Angular é um kit de Lego gigante, cheio de peças e instruções detalhadas. Ele foi criado pelo Google e é muito poderoso, mas pode ser um pouco difícil de aprender no começo. É ótimo para projetos grandes onde você precisa de muita organização e estrutura.
+##Vantagens e Desvantagens do Angular
+Vantagens:
+Muito poderoso e completo.
+Bom para projetos grandes.
+Suporte do Google.
+Desvantagens:
+Difícil de aprender.
+Pode ser pesado para projetos pequenos.
+###Exemplo Angular
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  template: '<h1>Hello, World!</h1>',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {}
+Este código Angular cria um componente chamado AppComponent. Primeiro, importa a ferramenta Component do Angular. Usando @Component, define o nome do componente (app-root), o que ele mostra na tela (<h1>Hello, World!</h1>), e os estilos (app.component.css). A classe AppComponent finaliza a criação do componente, que pode ser reutilizado no aplicativo.
+#React vs Vue vs Angular
+React é como um Lego rápido e modular, ótimo para projetos dinâmicos. Vue é o Lego fácil e flexível, perfeito para quem está começando. Angular é o Lego super completo e organizado, ideal para grandes construções. Escolher entre eles depende do que você quer construir e de como você prefere trabalhar!
+Gostou do artigo? Siga-me no linkedin para mais dicas e truques sobre desenvolvimento front-end! 
+
+Imagens geradas por: lexica.art
+Imagens editadas por: Canvas
+Conteúdo gerado por: ChatGPT com revisões humanas
+#DesenvolvimentoWeb #JavaScript #FrontEnd #Frameworks #React #Vue #Angular
